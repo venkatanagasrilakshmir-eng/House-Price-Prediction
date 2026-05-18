@@ -72,25 +72,28 @@ python train_model.py
 python app/app.py
 ```
 
-Visit: [http://localhost:5000](http://localhost:5000)
+Visit: [https://localhost:5000](https://localhost:5000)
 
 ## 📊 Example Results (Visuals)
 
 ### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](<img width="632" height="585" alt="58945" src="https://github.com/user-attachments/assets/0cdb9541-8acf-48f8-9192-af7ca80f832a" />
+/correlation_heatmap.png)
 
 ### Feature Importance
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](<img width="647" height="470" alt="58946" src="https://github.com/user-attachments/assets/50ac0b1e-72fb-4000-9b56-1491a04bf971" />
+/feature_importance.png)
 
 ### Actual vs. Predicted Prices
-![Prediction Graph](images/prediction_graph.png)
+![Prediction Graph]
+(<img width="644" height="470" alt="58947" src="https://github.com/user-attachments/assets/84538062-47b0-4cac-b7cb-aa02781bc06b" />
+/prediction_graph.png)
 
 
 ## 🎛️ Sample User Interface
 
 > You can enter features like Area, Bedrooms, Bathrooms, Stories, and Parking on the main page, and instantly see the predicted price.
 
----
 
 ## 📓 Reference: Jupyter Notebook
 
@@ -99,7 +102,6 @@ Check `notebooks/house_price_prediction.ipynb` for:
 - Exploratory Data Analysis
 - In-depth model evaluation
 
----
 
 ## 👨‍💻 Tech Stack
 
@@ -108,13 +110,11 @@ Check `notebooks/house_price_prediction.ipynb` for:
 - matplotlib, seaborn
 - HTML/CSS
 
----
 
 ## 📬 License
 
 MIT License. See [LICENSE](LICENSE) for details.
 
----
 
 ## 🙏 Acknowledgments
 
