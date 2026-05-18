@@ -2,8 +2,6 @@
 
 **House-Price-Prediction-Advanced** is a machine learning web application that predicts house prices based on key features using a Random Forest model. This project includes thorough data analysis, interactive visualizations, and a user-friendly Flask web interface.
 
----
-
 ## 📚 Project Overview
 
 Predicting house prices is a classic data science problem with real-world value for buyers, sellers, and developers. This project demonstrates the full cycle of a machine learning workflow:
@@ -15,43 +13,6 @@ Predicting house prices is a classic data science problem with real-world value 
 - **Model Evaluation and Interpretation**
 - **Web Deployment (Flask App)**
 - **User-friendly Prediction Interface**
-
----
-
-## 🗂️ Project Structure
-
-```text
-House-Price-Prediction-Advanced/
-│
-├── data/
-│   └── house_data.csv
-│
-├── models/
-│   └── random_forest_model.pkl
-│
-├── notebooks/
-│   └── house_price_prediction.ipynb
-│
-├── app/
-│   └── app.py
-│
-├── images/
-│   ├── correlation_heatmap.png
-│   ├── feature_importance.png
-│   └── prediction_graph.png
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   └── style.css
-│
-├── train_model.py
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 📈 Workflow Diagram
 
@@ -72,7 +33,6 @@ Here’s a high-level workflow for the project:
  +-----------------+       Prediction        +-------------------+
 ```
 
----
 
 ## 🌟 Features
 
@@ -84,8 +44,6 @@ Here’s a high-level workflow for the project:
 - **Interactive Web App**: Enter features, get instant price predictions via Flask + HTML.
 - **Reusable Notebook**: Jupyter notebook for in-depth experiments.
 - **Modular Project Layout**: Easy to modify and extend.
-
----
 
 ## 🚀 Getting Started
 
@@ -116,8 +74,6 @@ python app/app.py
 
 Visit: [http://localhost:5000](http://localhost:5000)
 
----
-
 ## 📊 Example Results (Visuals)
 
 ### Correlation Heatmap
@@ -129,7 +85,6 @@ Visit: [http://localhost:5000](http://localhost:5000)
 ### Actual vs. Predicted Prices
 ![Prediction Graph](images/prediction_graph.png)
 
----
 
 ## 🎛️ Sample User Interface
 
