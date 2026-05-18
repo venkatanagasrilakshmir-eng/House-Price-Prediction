@@ -1,8 +1,8 @@
-# 🏠 House Price Prediction (Advanced)
+# House Price Prediction (Advanced)
 
 **House-Price-Prediction-Advanced** is a machine learning web application that predicts house prices based on key features using a Random Forest model. This project includes thorough data analysis, interactive visualizations, and a user-friendly Flask web interface.
 
-## 📚 Project Overview
+##  Project Overview
 
 Predicting house prices is a classic data science problem with real-world value for buyers, sellers, and developers. This project demonstrates the full cycle of a machine learning workflow:
 
@@ -14,7 +14,7 @@ Predicting house prices is a classic data science problem with real-world value 
 - **Web Deployment (Flask App)**
 - **User-friendly Prediction Interface**
 
-## 📈 Workflow Diagram
+## Workflow Diagram
 
 Here’s a high-level workflow for the project:
 
@@ -34,7 +34,7 @@ Here’s a high-level workflow for the project:
 ```
 
 
-## 🌟 Features
+##  Features
 
 - **Clean EDA & Visualizations**: Automated EDA with plots:
   - ![Correlation Heatmap](images/correlation_heatmap.png)
@@ -45,7 +45,7 @@ Here’s a high-level workflow for the project:
 - **Reusable Notebook**: Jupyter notebook for in-depth experiments.
 - **Modular Project Layout**: Easy to modify and extend.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -74,7 +74,7 @@ python app/app.py
 
 Visit: [https://localhost:5000](https://localhost:5000)
 
-## 📊 Example Results (Visuals)
+## Example Results (Visuals)
 
 ### Correlation Heatmap
 ![Correlation Heatmap](<img width="632" height="585" alt="58945" src="https://github.com/user-attachments/assets/0cdb9541-8acf-48f8-9192-af7ca80f832a" />
@@ -90,12 +90,12 @@ Visit: [https://localhost:5000](https://localhost:5000)
 /prediction_graph.png)
 
 
-## 🎛️ Sample User Interface
+## Sample User Interface
 
 > You can enter features like Area, Bedrooms, Bathrooms, Stories, and Parking on the main page, and instantly see the predicted price.
 
 
-## 📓 Reference: Jupyter Notebook
+##  Reference: Jupyter Notebook
 
 Check `notebooks/house_price_prediction.ipynb` for:
 - Data cleaning
@@ -103,7 +103,7 @@ Check `notebooks/house_price_prediction.ipynb` for:
 - In-depth model evaluation
 
 
-## 👨‍💻 Tech Stack
+## Tech Stack
 
 - Python, Flask
 - scikit-learn, pandas, numpy
@@ -111,12 +111,12 @@ Check `notebooks/house_price_prediction.ipynb` for:
 - HTML/CSS
 
 
-## 📬 License
+## License
 
 MIT License. See [LICENSE](LICENSE) for details.
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Kaggle (House Price Data)](https://www.kaggle.com/)
 - scikit-learn documentation
