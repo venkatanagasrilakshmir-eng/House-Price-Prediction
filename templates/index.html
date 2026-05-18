@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced House Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+    <h1>Advanced House Price Prediction</h1>
+    <form method="post">
+        {% for col in columns %}
+            <label>{{ col }}: <input type="text" name="{{ col }}" required></label><br>
+        {% endfor %}
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction is not none %}
+        <h2>Predicted Price: {{ prediction }}</h2>
+    {% endif %}
+    <h3>Feature Importance</h3>
+    <img src="{{ url_for('static', filename='../images/feature_importance.png') }}" width="350px">
+
+    <h3>Correlation Heatmap</h3>
+    <img src="{{ url_for('static', filename='../images/correlation_heatmap.png') }}" width="350px">
+
+    <h3>Actual vs Predicted</h3>
+    <img src="{{ url_for('static', filename='../images/prediction_graph.png') }}" width="350px">
+    </div>
+</body>
+</html>
